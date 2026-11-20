@@ -30,7 +30,7 @@ jobs:
 
       - name: Extraire le projet Android
         run: |
-          unzip -q MotionTextPro-Android-3.zip -d .
+        unzip -q MotionTextPro-Android-CORRIGE.zip -d .  
           test -f MotionTextPro/settings.gradle.kts
 
       - name: Installer Gradle
